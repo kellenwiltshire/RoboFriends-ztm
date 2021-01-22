@@ -4,7 +4,6 @@ import SearchBox from '../components/SearchBox.js';
 import Scroll from '../components/Scroll.js';
 import ErrorBoundry from '../components/ErrorBoundry';
 import './App.css';
-import userEvent from '@testing-library/user-event';
 
 function App() {
 	const [robots, setRobots] = useState([]);
